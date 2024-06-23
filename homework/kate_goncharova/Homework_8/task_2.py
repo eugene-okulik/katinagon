@@ -7,6 +7,7 @@ def fibonacci_fun():
     while True:
         yield numbers[-1]
         numbers.append(numbers[-1] + numbers[-2])
+        numbers.pop(0)
 
 
 count = 2
