@@ -11,4 +11,3 @@ list_with_price = [int(words_list[i][:-1]) for i in range(len(words_list)) if i 
 words_list = [words_list[i] for i in range(len(words_list)) if i % 2 == 0]
 new_dict = {key: value for key, value in zip(words_list, list_with_price)}
 print(new_dict)
-
